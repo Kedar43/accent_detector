@@ -12,3 +12,17 @@
 2025-06-22 18:07:20,829 - INFO - Classified accent: ['england'] with confidence 67.67%
 2025-06-22 18:07:20,829 - INFO - Removed temporary file: /Users/kedarpatel/Downloads/accent_detector/fb42e3f5-3e52-4682-a17e-59061379d57f_audio.wav
 2025-06-22 18:07:20,830 - INFO - Removed temporary file: /Users/kedarpatel/Downloads/accent_detector/31298032-a128-4fb0-8ab0-49b45db1d7b0_video.mp4
+2025-06-22 20:20:37,793 - INFO - Downloaded video to /Users/kedarpatel/Downloads/accent_detector/9c59b57e-1a0e-45fd-9cab-3cc5ffc4fef7_video.mp4
+2025-06-22 20:20:38,014 - INFO - Extracted audio to /Users/kedarpatel/Downloads/accent_detector/a69a14a4-dd9f-4498-a9ee-6b6b33c5f70d_audio.wav
+2025-06-22 20:20:38,015 - INFO - Fetch hyperparams.yaml: Delegating to Huggingface hub, source Jzuluaga/accent-id-commonaccent_xlsr-en-english.
+2025-06-22 20:20:38,253 - INFO - Fetch custom_interface.py: Delegating to Huggingface hub, source Jzuluaga/accent-id-commonaccent_xlsr-en-english.
+2025-06-22 20:20:44,671 - WARNING - speechbrain.lobes.models.huggingface_wav2vec - wav2vec 2.0 is frozen.
+2025-06-22 20:20:44,673 - INFO - Fetch wav2vec2.ckpt: Delegating to Huggingface hub, source Jzuluaga/accent-id-commonaccent_xlsr-en-english.
+2025-06-22 20:20:44,814 - INFO - Fetch model.ckpt: Delegating to Huggingface hub, source Jzuluaga/accent-id-commonaccent_xlsr-en-english.
+2025-06-22 20:20:44,955 - INFO - Fetch label_encoder.txt: Delegating to Huggingface hub, source Jzuluaga/accent-id-commonaccent_xlsr-en-english.
+2025-06-22 20:20:45,090 - INFO - Loading pretrained files for: wav2vec2, model, label_encoder
+2025-06-22 20:20:45,659 - INFO - Loaded SpeechBrain accent classifier
+2025-06-22 20:20:45,660 - INFO - Fetch a69a14a4-dd9f-4498-a9ee-6b6b33c5f70d_audio.wav: Using existing file/symlink in a69a14a4-dd9f-4498-a9ee-6b6b33c5f70d_audio.wav.
+2025-06-22 20:20:50,454 - INFO - Classified accent: ['england'] with confidence 67.67%
+2025-06-22 20:20:50,455 - INFO - Removed temporary file: /Users/kedarpatel/Downloads/accent_detector/a69a14a4-dd9f-4498-a9ee-6b6b33c5f70d_audio.wav
+2025-06-22 20:20:50,455 - INFO - Removed temporary file: /Users/kedarpatel/Downloads/accent_detector/9c59b57e-1a0e-45fd-9cab-3cc5ffc4fef7_video.mp4

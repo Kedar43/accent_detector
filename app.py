@@ -1,5 +1,11 @@
+import os
 import streamlit as st
+from huggingface_hub import login
 from utils import process_video_url, explain_accent
+
+hf_token = os.getenv("HF_HUB_TOKEN")
+if hf_token:
+    login(hf_token)
 
 # Configure Streamlit page settings
 st.set_page_config(page_title="English Accent Detector", layout="centered")
