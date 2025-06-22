@@ -27,8 +27,8 @@ This Streamlit app detects English accents from speech in public video URLs usin
 1. **Clone the repo** (or copy your project files):
 
     ```bash
-    git clone <your-repo-url>
-    cd your-repo-folder
+    git clone https://github.com/Kedar43/accent_detector.git
+    cd accent_detector
     ```
 
 2. **Create and activate a virtual environment (optional but recommended):**
