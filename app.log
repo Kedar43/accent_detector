@@ -1,0 +1,14 @@
+2025-06-22 18:07:14,337 - INFO - Downloaded video to /Users/kedarpatel/Downloads/accent_detector/31298032-a128-4fb0-8ab0-49b45db1d7b0_video.mp4
+2025-06-22 18:07:14,549 - INFO - Extracted audio to /Users/kedarpatel/Downloads/accent_detector/fb42e3f5-3e52-4682-a17e-59061379d57f_audio.wav
+2025-06-22 18:07:14,549 - INFO - Fetch hyperparams.yaml: Using existing file/symlink in pretrained_models/CustomEncoderWav2vec2Classifier-a72df039c801fa14a1c3226e95ab8c14/hyperparams.yaml.
+2025-06-22 18:07:14,549 - INFO - Fetch custom_interface.py: Using existing file/symlink in pretrained_models/CustomEncoderWav2vec2Classifier-a72df039c801fa14a1c3226e95ab8c14/custom_interface.py.
+2025-06-22 18:07:16,840 - WARNING - speechbrain.lobes.models.huggingface_wav2vec - wav2vec 2.0 is frozen.
+2025-06-22 18:07:16,841 - INFO - Fetch wav2vec2.ckpt: Using existing file/symlink in pretrained_models/CustomEncoderWav2vec2Classifier-a72df039c801fa14a1c3226e95ab8c14/wav2vec2.ckpt.
+2025-06-22 18:07:16,841 - INFO - Fetch model.ckpt: Using existing file/symlink in pretrained_models/CustomEncoderWav2vec2Classifier-a72df039c801fa14a1c3226e95ab8c14/model.ckpt.
+2025-06-22 18:07:16,841 - INFO - Fetch label_encoder.txt: Using existing file/symlink in pretrained_models/CustomEncoderWav2vec2Classifier-a72df039c801fa14a1c3226e95ab8c14/label_encoder.ckpt.
+2025-06-22 18:07:16,841 - INFO - Loading pretrained files for: wav2vec2, model, label_encoder
+2025-06-22 18:07:17,275 - INFO - Loaded SpeechBrain accent classifier
+2025-06-22 18:07:17,276 - INFO - Fetch fb42e3f5-3e52-4682-a17e-59061379d57f_audio.wav: Using existing file/symlink in fb42e3f5-3e52-4682-a17e-59061379d57f_audio.wav.
+2025-06-22 18:07:20,829 - INFO - Classified accent: ['england'] with confidence 67.67%
+2025-06-22 18:07:20,829 - INFO - Removed temporary file: /Users/kedarpatel/Downloads/accent_detector/fb42e3f5-3e52-4682-a17e-59061379d57f_audio.wav
+2025-06-22 18:07:20,830 - INFO - Removed temporary file: /Users/kedarpatel/Downloads/accent_detector/31298032-a128-4fb0-8ab0-49b45db1d7b0_video.mp4
